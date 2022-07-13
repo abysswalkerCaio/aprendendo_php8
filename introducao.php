@@ -12,6 +12,8 @@ echo "<h3>É possível utilizar tags HTML dentro de echo com PHP.</h3>"
 
 //Comentário em uma linha com PHP.
 
+# Forma alternativa de se comentar em uma única linha.
+  
 /*
 Comentário em 
 diversas linhas 
