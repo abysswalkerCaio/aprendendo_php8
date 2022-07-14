@@ -8,12 +8,12 @@ echo ("O conteúdo de echo pode ser inserido em aspas duplas dentro de parêntes
 echo '<br><br>';
 echo ('O conteúdo de echo pode ser inserido em aspas simples dentro de parênteses.');
 echo '<br>';
-echo "<h3>É possível utilizar tags HTML dentro de echo com PHP.</h3>"
+echo '<h3>É possível utilizar tags HTML dentro de echo com PHP.</h3>';
 
 //Comentário em uma linha com PHP.
 
 # Forma alternativa de se comentar em uma única linha.
-  
+
 /*
 Comentário em 
 diversas linhas 
