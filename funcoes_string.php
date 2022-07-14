@@ -2,7 +2,7 @@
 
 # Existem dezenas de funções para tratamentos de strings. Alguns exemplos abaixo:
 
-$nome = "Caio Henrique Souza Costa";
+$nome = 'Caio Henrique Souza Costa';
 
 echo "$nome[0]<br>";
 echo "$nome[10]<br>";
