@@ -1,7 +1,7 @@
 <?php
 
 $valores = [1, 2, 3, 4, 5];
-$nomes = ["Caio", "A2", "2B", "9S", "Pascal"];
+$nomes = ['Caio', 'A2', '2B', '9S', 'Pascal'];
 
 echo "$valores[0]<br>";
 echo "$nomes[2]<br>";
@@ -24,8 +24,8 @@ echo "$valores[5]<br>";
 $misto = [
     0 => 1,
     1 => 2,
-    "nome" => "Caio",
-    "apelido" => "ciao"
+    'nome' => 'Caio',
+    'apelido' => 'ciao'
 ];
 
 # É possível a declaração de arrays multidimensionais, ou seja, arrays que possuem linhas e colunas.
@@ -42,16 +42,16 @@ echo $multidimensional[2][4] . '<br><br>';
 # E a criação de arrays multidimensionais associativos.
 
 $paises = [
-    "Canadá" => ["Quebec", "Toronto", "Vancouver"],
-    "Brasil" => ["São Vicente", "Santos", "São Paulo"]
+    'Canadá' => ['Quebec', 'Toronto', 'Vancouver'],
+    'Brasil' => ['São Vicente', 'Santos', 'São Paulo']
 ];
 
-echo $paises["Canadá"][0] . '<br>';
-echo $paises["Canadá"][1] . '<br>';
-echo $paises["Canadá"][2] . '<br><br>';
+echo $paises['Canadá'][0] . '<br>';
+echo $paises['Canadá'][1] . '<br>';
+echo $paises['Canadá'][2] . '<br><br>';
 
-echo $paises["Brasil"][0] . '<br>';
-echo $paises["Brasil"][1] . '<br>';
-echo $paises["Brasil"][2] . '<br>';
+echo $paises['Brasil'][0] . '<br>';
+echo $paises['Brasil'][1] . '<br>';
+echo $paises['Brasil'][2] . '<br>';
 
 ?>
