@@ -49,11 +49,11 @@ echo "<br>Valor 3 com Decremento Simples: $incremento";
 $integer = 1;
 $float = 1.5;
 $boolean = true;
-$string = "Hello World!";
+$string = 'Hello World!';
 $array = [1, 2, 3];
 $objeto = new Objeto();
 $nulo = null;
 
-echo "<br>"
+echo '<br>';
 
 ?>
